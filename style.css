@@ -1,0 +1,289 @@
+    /* MacBook Pro 14" - 1 */
+
+position: relative;
+width: 1512px;
+height: 982px;
+
+background: #E2DFDF;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 730px;
+height: 877px;
+left: 782px;
+top: 105px;
+
+background: url(Captura de tela 2023-05-03 094023 (2).png);
+
+
+/* Line 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1512px;
+height: 0px;
+left: 1512px;
+top: 105px;
+
+border: 3px solid #000000;
+transform: rotate(-179.88deg);
+
+
+/* Line 5 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1512px;
+height: 0px;
+left: 0px;
+top: 982px;
+
+border: 3px solid #000000;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 557px;
+height: 537px;
+left: 503px;
+top: 254px;
+
+background: #D9D9D9;
+
+
+/* Captura_de_tela_2023-05-03_093555-removebg-preview (1) 1 */
+
+position: absolute;
+width: 464px;
+height: 575px;
+left: 554px;
+top: 236px;
+
+background: url(Captura_de_tela_2023-05-03_093555-removebg-preview (1).png);
+
+
+/* HOME BISCUIT */
+
+position: absolute;
+width: 486px;
+height: 347px;
+left: calc(50% - 486px/2 - 445px);
+top: calc(50% - 347px/2 + 58.5px);
+
+font-family: 'Playfair Display SC';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 125.6%;
+/* or 100px */
+/* hanging-punctuation is currently only supported in Safari. */
+hanging-punctuation: first last;
+text-transform: capitalize;
+
+color: #000000;
+
+opacity: 0.8;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* ver mais */
+
+position: absolute;
+width: 178px;
+height: 50px;
+left: 163px;
+top: 698px;
+
+font-family: 'Playfair Display SC';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 125.6%;
+/* or 50px */
+/* hanging-punctuation is currently only supported in Safari. */
+hanging-punctuation: first last;
+text-transform: capitalize;
+
+color: #000000;
+
+
+
+/* Line 3 */
+
+position: absolute;
+width: 25.71px;
+height: 0px;
+left: 1512px;
+top: 99px;
+
+border: 1px solid #000000;
+transform: rotate(13.5deg);
+
+
+/* Line 6 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 407px;
+height: 0px;
+left: 68px;
+top: 684px;
+
+border: 2px solid #000000;
+transform: rotate(-0.13deg);
+
+
+/* Line 7 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 78px;
+height: 0px;
+left: 68px;
+top: 683px;
+
+border: 2px solid #000000;
+transform: rotate(90deg);
+
+
+/* Line 8 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 405px;
+height: 0px;
+left: 68px;
+top: 761px;
+
+border: 2px solid #000000;
+
+
+/* Line 9 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 79px;
+height: 0px;
+left: 473px;
+top: 682px;
+
+border: 2px solid #000000;
+transform: rotate(90deg);
+
+
+/* H&B */
+
+position: absolute;
+width: 154px;
+height: 54px;
+left: 37px;
+top: 20px;
+
+font-family: 'Abhaya Libre SemiBold';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 125.6%;
+/* or 60px */
+/* hanging-punctuation is currently only supported in Safari. */
+hanging-punctuation: first last;
+text-transform: capitalize;
+
+color: #000000;
+
+
+
+/* 800px-CIS-A2K_Instagram_Icon_(Black) 1 */
+
+position: absolute;
+width: 61px;
+height: 62px;
+left: 1326px;
+top: 20px;
+
+background: url(800px-CIS-A2K_Instagram_Icon_(Black));
+
+
+/* 1384007 1 */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 1416px;
+top: 20px;
+
+background: url(1384007.png);
+
+
+/* Bolos */
+
+position: absolute;
+width: 76px;
+height: 28px;
+left: 744px;
+top: 39px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 125.6%;
+/* or 30px */
+/* hanging-punctuation is currently only supported in Safari. */
+hanging-punctuation: first last;
+text-transform: capitalize;
+
+color: #000000;
+
+
+
+/* nós */
+
+position: absolute;
+width: 44px;
+height: 30px;
+left: 891px;
+top: 39px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 125.6%;
+/* or 30px */
+/* hanging-punctuation is currently only supported in Safari. */
+hanging-punctuation: first last;
+text-transform: capitalize;
+
+color: #000000;
+
+
+
+/* menu */
+
+position: absolute;
+width: 113px;
+height: 37px;
+left: 586px;
+top: 39px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 125.6%;
+/* or 30px */
+/* hanging-punctuation is currently only supported in Safari. */
+hanging-punctuation: first last;
+text-transform: capitalize;
+
+color: #000000;
