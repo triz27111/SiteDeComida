@@ -1,86 +1,101 @@
-h1{
-    position: absolute;
-width: 100px;
-height: 37px;
-left: 450px;
-top: 60px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
 
-font-family: 'Lora';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 125.6%;
-
-hanging-punctuation: first last;
-text-transform: capitalize;
-
-color: #000000;
-}
-h2{
-    position: absolute;
-width: 76px;
-height: 28px;
-left: x;
-top: 60px;
-
-font-family: 'Lora';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 125.6%;
-
-text-transform: capitalize;
-
-color: #000000;
-
+body{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    height: 100vh;
+    background-color: #E2DFDF;
 }
 
-h3{
-    position: absolute;
-width: 44px;
-height: 30px;
-left: 680px;
-top: 60px;
-
-font-family: 'Lora';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 125.6%;
-
-hanging-punctuation: first last;
-text-transform: capitalize;
-
-color: #000000;
-    
+header{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    border-bottom: 1px solid #000;
 }
-h4{
-    position: absolute;
-width: 154px;
-height: 54px;
-left: 37px;
-top: 1px;
 
-font-family: 'Abhaya Libre SemiBold';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 125.6%;
-
-
-hanging-punctuation: first last;
-text-transform: capitalize;
-
-color: #000000;
-
+header h1{
+    font-family: 'Abhaya Libre SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125.6%;
 }
+
+header .options{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.6%;
+    hanging-punctuation: first last;
+    text-transform: capitalize;
+    display: flex;
+    gap: 24px;
+}
+
+.social img{
+    height: 50px;
+}
+
+main{
+    padding: 10px 32px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.title{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.title h2{
+    font-size: 80px;
+}
+
+.title button{
+    width: 300px;
+    height: 60px;
+    color: inherit;
+    border-width: 1px;
+    border-style: solid;
+    border-color: inherit;
+    font-size: 40px;  
+    background-color: inherit;
+}
+
 .bolo{
-    position: absolute;
-width: 300px;
-height: 300px;
-left: 500px;
-top: 190px;
-border-radius: 10000px;
-background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    background-image: url(./img/bolo.png);
+    background-size: 76%;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
 
+.branco{
+    width: 30%;
+}
+
+img[alt~=suspiro]{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    width: 50%;
+    height: 100%;
 }
